@@ -1,0 +1,272 @@
+@font-face {
+  font-family: genral;
+  src: url("/GeneralSans-Medium.otf");
+}
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: genral;
+  background-color: black;
+}
+
+.minicircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  z-index: 99999;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.main {
+  width: 100%;
+  background-color: black;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.nav h3 {
+  font-size: 1vw;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hero-title {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 4rem 3rem;
+}
+
+.boundry{
+  width: fit-content;
+  overflow: hidden;
+}
+
+/* .boundry h1 {
+  transform: translateY(100%);
+} */
+
+.boundry .boundryelem{
+  transform: translateY(100%);
+}
+
+.hero-title h1 {
+  font-size: 10vw;
+  opacity: 0.6;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.first {
+  margin-left: 11rem;
+}
+.block-text {
+  width: fit-content;
+}
+.block-text{
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chhotiheading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: #fff;
+  margin-right: 3rem;
+}
+
+.chhotiheading h5 {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.herofooter {
+  padding: 0 3vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.herofooter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.herofooter .circle {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: gray;
+}
+
+
+.herofooter .icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+
+/* ==========second======= */
+
+.second-para {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding-top: 200px;
+  padding-right: 10vw;
+}
+
+.elem {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  border-top: 1px solid #888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 2vw;
+}
+.elem h1 {
+  text-transform: uppercase;
+  font-size: 7rem;
+  opacity: 0.6;
+}
+
+.lastelem {
+  border-bottom: 1px solid #888;
+}
+
+.elem img {
+  opacity: 0;
+  pointer-events: none;
+  height: 140%;
+  z-index: 999;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+/* ======about========= */
+
+.about {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 10vw 10vw;
+  padding-left: 40vw;
+}
+.about img {
+  width: 200px;
+}
+.about-text {
+  width: 80%;
+  color: #fff;
+}
+
+.about-text h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+.about-text p {
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.about-text a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+/* -------Main footer------- */
+
+.subs {
+  width: 100%;
+  /* height: 100vh; */
+  padding: 20px 20px;
+  padding-bottom: 7vw;
+  background-color: black;
+}
+
+.fheading h5 {
+  color: #fff;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+.fheading a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.footer-left {
+  display: flex;
+  gap: 1vw;
+}
+
+.footer-left h5 {
+  color: #fff;
+}
+
+.footer-right a {
+  text-decoration: none;
+  padding: 0 1.5vw;
+  color: #fff;
+}
